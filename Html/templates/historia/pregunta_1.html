@@ -1,0 +1,21 @@
+{% extends 'preguntas.html' %}
+{% block pregunta %}
+<h1>¿chachita morira virgen?</h1>
+{% endblock %}
+
+<div id="regresiva">
+    <span id="countdown"></span>
+</div>
+{% block respuestas %}
+<div id="Pregunta1" onclick="Correcto()" >
+    <h1 > si</h1>
+</div>
+
+<div id="Pregunta2" onclick="Incorrecto()">
+    <h1>no</h1>
+</div>
+
+
+{% endblock %}
+
+

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#Header_Login #utt{
+    position: fixed;
+    width: 300px;
+    height: 90px;
+}
+#sermejor #hoy{
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    margin-left: 80%;
+}
+
+#tema1{
+    position: fixed;
+    background: #f5be0b;
+    width: 700px;
+    height: 80px;
+    
+    margin-top: 120px;
+    transition: 0.4s;
+    
+
+    
+} #tema1:hover{
+    width: 720px;
+    border-radius: 20px;
+}
+#tema1 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#tema2{
+    position: fixed;
+    background: #00a786;
+    width: 640px;
+    height: 80px;
+    margin-top: 200px;
+    transition: 0.4s;
+}#tema2:hover{
+    width: 660px;
+    border-radius: 20px;
+}
+
+#tema2 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#tema3{
+    position: fixed;
+    background: #fd6c0f;
+    width: 580px;
+    height: 80px;
+    margin-top: 280px;
+    transition: 0.4s;
+}#tema3:hover{
+    width: 600px;
+    border-radius: 20px;
+}
+
+#tema3 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#tema4{
+    position: fixed;
+    background: #f5be0b;
+    width: 520px;
+    height: 80px;
+    margin-top: 360px;
+    transition: 0.4s;
+}#tema4:hover{
+    width: 540px;
+    border-radius: 20px;
+}
+#tema4 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#tema5{
+    position: fixed;
+    background: #00a786;
+    width: 440px;
+    height: 80px;
+    margin-top: 440px;
+    transition: 0.4s;
+}#tema5:hover{
+    width: 460px;
+    border-radius: 20px;
+}
+
+#tema5 h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#aniversario #ani{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    margin-left: 65%;
+    margin-top: 140px;
+}
+
+#foter #fot{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin-top: 43%;
+}
+
+
+
+/*  plantilla pagina  */ 
+
+#siguiente{
+    margin-left: 92%;
+  
+    font-size: 90px;
+    text-decoration: none;
+    list-style:none
+}
+#siguiente a li{
+    color: #fd6c0f;
+}
+
+#fondo #fond{
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    z-index: -10;
+    margin-top: 5%;
+    margin-left:25%;
+    opacity: 10%;
+
+}
+
+#Pregunta h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#Pregunta1{
+    position: fixed;
+    background: #00a786;
+    width: 400px;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 15px;
+  
+}
+#Pregunta2{
+    position: fixed;
+    background: #f5be0b;
+    width: 400px;
+    height: 80px;
+    margin-left: 55%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+#Pregunta3{
+    position: fixed;
+    background: #fd6c0f;
+    width: 400px;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 22%;
+    border-radius: 15px;
+  
+}
+#Pregunta4{
+    position: fixed;
+    background: #00a786;
+    width: 400px;
+    height: 80px;
+    margin-left: 55%;
+    margin-top: 22%;
+    border-radius: 15px;
+}
+
+#Pregunta1 h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+#Pregunta2 h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+#Pregunta3 h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+#Pregunta4 h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
+#respuesta{
+    margin-left: 92%;
+    margin-top: 13%;
+  
+    font-size: 90px;
+    text-decoration: none;
+    list-style:none
+}
+#siguiente a li{
+    color: #fd6c0f;
+}
+#regresiva{
+    position: fixed;
+    text-align: center;
+    
+    margin-top: -7% ; 
+    width: 600px;
+    height: 100px;
+    margin-left: 25%;
+    
+}
+
+#countdown{
+    font-size: 50px;
+    color: #00a786;
+}

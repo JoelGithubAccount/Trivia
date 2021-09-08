@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Animated css-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--ETIQUETAS DE BOOTSTRAP-->
+    <link rel="stylesheet" href='{% static "bootstrap/css/bootstrap.min.css" %}'>
+    <!--css-->
+    <link rel="stylesheet" href='{% static "css/estilosunicos.css" %}'>
+    <!--SweetAlert-->
+    <link rel="stylesheet" href="plugins/sweetAlert/sweetalert2.min.css">
+     <!-- Our project just needs Font Awesome Solid + Brands -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    
+
+</head>
+ 
+<body>
+
+    <header id="Header_Login">
+        <div >
+            <a href="../../index.html"><img src='{% static "img/utt.png" %}' id="utt"  ></a>
+        </div>
+    </header>
+    <div id="fondo">
+        <img src='{% static "img/241222564_4723733737639529_6218387366889356188_n.jpg" %}' id="fond">
+        
+    </div>
+
+    <div id="siguiente">
+        <a href="../"><li><span class="fas fa-arrow-circle-right"></span></li></a>
+
+    </div>
+    <div id="regresiva">
+        <span id="countdown"></span>
+    </div>
+    <div id="Pregunta">
+        
+        <h1>{% block pregunta %}
+
+            ¿Cuantos años tiene el atentado de las torres gemelas? 
+            {% endblock %}
+        </h1>
+
+    </div>
+
+    {% block respuestas %}
+    <div id="Pregunta1" onclick="Correcto()" >
+        <h1 > 11 años</h1>
+    </div>
+
+    <div id="Pregunta2" onclick="Incorrecto()">
+        <h1>16 años</h1>
+    </div>
+
+    <div id="Pregunta3"  onclick="Incorrecto()">
+        <h1> 20 años</h1>
+    </div>
+
+
+    <div id="Pregunta4"  onclick="Incorrecto()">
+        <h1> 33años</h1>
+    </div>
+
+
+    {% endblock %}
+    
+
+
+
+<!--Regresiva -->
+
+
+
+
+
+
+<script src='{% static "js/sweetalert2@11.js" %}'></script>
+</body>
+
+<!--Codigo Jquiery-->
+<script src='{% static "jquery/jquery-3.3.1.min.js" %}'></script>
+<!--Scrip del bottstrap-->
+
+
+
+<script src='{% static "js/sweetalert.js" %}'></script>
+</html>

@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Animated css-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--css-->
+    <link rel="stylesheet" href='{% static "css/estilosunicos.css" %}'>
+     <!-- Our project just needs Font Awesome Solid + Brands -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    
+
+</head>
+    
+
+<body>
+
+
+
+    <!--Header del login-->
+    <header id="Header_Login">
+        <div >
+            <img src='{% static "img/utt.png" %}' id="utt" >
+        </div>
+    </header>
+    <div id="sermejor">
+        <img src='{% static "img/ser mejor.png" %}' id="hoy">
+
+    </div>
+
+    <a href="{% url 'historia' %}"><div id="tema1"> <h1>Historia</h1> </div></a>
+
+
+
+    <a href=""><div id="tema2"><h1>Quimica</h1> </div></a>
+
+    <a href="http://"><div id="tema3"> <h1>Matematicas</h1></div></a>
+
+    <a href="http://"><div id="tema4"> <h1>Ingles</h1> </div></a>
+
+    <a href="http://"><div id="tema5"> <h1>Fisica</h1> </div></a>
+
+    <div id="aniversario">
+        <img src='{% static "img/241222564_4723733737639529_6218387366889356188_n.jpg" %}' id="ani">
+
+    </div>
+
+    <footer id="foter">
+        <img src='{% static "img/foter.png" %}' id="fot">
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/sweetalert2@11.js"></script>
+</body>
+<!--Codigo Jquiery-->
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<!--Scrip del bottstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+
+<script src="js/sweetalert.js"></script>
+</html>
